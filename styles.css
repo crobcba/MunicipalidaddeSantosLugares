@@ -7,12 +7,21 @@
 }
 header 
 {
-    background-color: blue;
+    background-color: (#336699);
+    width: auto;
+    height: 120px;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid;
+
+
 }
 .titulo {
     font-family: 'Caveat', cursive;
-    font-size: x-large;
-    align-items:center;
+    font-size: 60px;
+    text-align:end
 }
 .contenedor
 {
@@ -20,5 +29,5 @@ header
     font-family: 'Times New Roman', Times, serif;
     flex-direction: row;
     justify-content: space-around;
-    font-size: medium;
+    font-size: small;
 }
