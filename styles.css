@@ -5,29 +5,103 @@
     padding: 0;
     box-sizing: border-box;
 }
-header 
-{
-    background-color: (#336699);
+
+header{
+    background-color:rgb(51, 102, 153);
     width: auto;
-    height: 120px;
+    height: 165px;
     padding-left: 20px;
     padding-right: 15px;
     margin-left: 10px;
     margin-right: 10px;
-    border: 2px solid;
-
-
+    border: none;
 }
 .titulo {
     font-family: 'Caveat', cursive;
     font-size: 60px;
-    text-align:end
+    text-align:end 
 }
-.contenedor
-{
+.contenedor{
     display: flex;
     font-family: 'Times New Roman', Times, serif;
     flex-direction: row;
     justify-content: space-around;
     font-size: small;
+}
+
+.gobierno {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 20px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 25px; /*bordes redondos*/
+}
+
+.servicios {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 20px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 25px; /*bordes redondos*/
+}
+
+.noticias {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 20px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 25px; /*bordes redondos*/
+}
+
+.consultas {
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 20px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 25px; /*bordes redondos*/
+}
+.fotosPresentacion {    
+    margin-top: 40px;
+    font-family: 'Arimo', sans-serif;
+    width: 100%;
+    height: 250px;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    }
+
+.gobierno1 {
+    background-size: 100%;
+    background-color:  aqua;
+    font-size: 30px;
+}
+    
+
+.contenedorFotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contenedorFotos img {
+    border-radius: 50%;
+    border: solid 1px;
+}
+.contenedorFotos p {
+    text-align:center;
+    font-size: 15px;
 }
