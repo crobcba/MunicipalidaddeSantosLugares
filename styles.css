@@ -7,15 +7,45 @@
 }
 
 header{
-    background-color:rgb(51, 102, 153);
+    background-color:rgb(79, 99, 161);
     width: auto;
-    height: 165px;
+    height: 175px;
     padding-left: 20px;
     padding-right: 15px;
     margin-left: 10px;
     margin-right: 10px;
     border: none;
 }
+
+header div div a {
+    color: black;
+}
+
+.foto {
+    width: 1100px;
+    height: 445px;
+    padding-left: 20px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    margin-top: 40px;
+}
+.contenedoruno{
+    display: block;
+    margin-left: 100px;
+    margin-right: 70px;    
+}
+
+.avanzamos{
+    font-family: 'Arimo', sans-serif;
+    font-size: 40px;
+    font-style: oblique;
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    }
+
 .titulo {
     font-family: 'Caveat', cursive;
     font-size: 60px;
@@ -30,9 +60,9 @@ header{
 }
 
 .gobierno {
-    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    border: 1px solid black; /*anchura, estilo y color borde*/
     padding: 20px; /*espacio alrededor texto*/
-    background-color: #2e518b; /*color botón*/
+    background-color: rgb(99, 161, 79); /*color botón*/
     color: #ffffff; /*color texto*/
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
@@ -41,9 +71,9 @@ header{
 }
 
 .servicios {
-    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    border: 1px solid black; /*anchura, estilo y color borde*/
     padding: 20px; /*espacio alrededor texto*/
-    background-color: #2e518b; /*color botón*/
+    background-color: rgb(99, 161, 79); /*color botón*/
     color: #ffffff; /*color texto*/
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
@@ -52,9 +82,9 @@ header{
 }
 
 .noticias {
-    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    border: 1px solid black; /*anchura, estilo y color borde*/
     padding: 20px; /*espacio alrededor texto*/
-    background-color: #2e518b; /*color botón*/
+    background-color: rgb(99, 161, 79); /*color botón*/
     color: #ffffff; /*color texto*/
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
@@ -63,9 +93,9 @@ header{
 }
 
 .consultas {
-    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    border: 1px solid black; /*anchura, estilo y color borde*/
     padding: 20px; /*espacio alrededor texto*/
-    background-color: #2e518b; /*color botón*/
+    background-color: rgb(99, 161, 79); /*color botón*/
     color: #ffffff; /*color texto*/
     text-decoration: none; /*decoración texto*/
     text-transform: uppercase; /*capitalización texto*/
