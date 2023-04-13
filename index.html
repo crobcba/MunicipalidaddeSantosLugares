@@ -8,6 +8,7 @@
     <meta name="keywords" content="Municipalidad, gobierno, obras, cultura, deportes, salud, recreacion">
     <meta name="description" content = "Municipalidad de Santos Lugares">
     <link rel="stylesheet" href="./dist/css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/c2359dfe28.js" crossorigin="anonymous"></script>
 
     <title>Sitio oficial del Municipio de Santos Lugares</title>
 </head>
@@ -17,14 +18,12 @@
         <div>
             <div>
                 <a href="mailto:municipalidad@santoslugares.com">Contactate</a>
-             <!--FALTA LOS ICONOS DE LAS REDES SOCIALEES -->
-                
-                <!--FALTA AGREGAR EL LOGO DE LA MUNICIAPLIDAD-->
+             
                 <h2 class="titulo">Tu Municipalidad</h2>
                 <div class="contenedor">
                     <a href="#fotosPresentacion"><button class="gobierno">GOBIERNO</button></a>
                     <a href="#botonesServicio"><button class="servicios">SERVICIOS</button></a>
-                    <a href="#noticias1"><button class="noticias">NOTICIAS</button></a>
+                    <a href="#noticiasuno"><button class="noticias">NOTICIAS</button></a>
                     <button class="consultas">CONSULTAS</button>
 
                 </div>
@@ -44,7 +43,7 @@
         <section class="fotosPresentacion" id="fotosPresentacion">
             <div>
                     <div>
-                        <h3 class="gobierno1">GOBIERNO</h3>>
+                        <h3 class="gobierno1">GOBIERNO</h3>
                     </div>
                     <div class="contenedorFotos">
                         <div class="secretarioDeEducacion">
@@ -72,42 +71,63 @@
         </section>
         
         <section class="botonesServicio" id="botonesServicio">
-            <h3>SERVICIOS</h3>
-            <div class="servicios2"> SERVICIOS</div>
-                <div class="botonesServicios">
-                    <button class="educacion">Educacion</button>
-                    <button class="salud">Salud</button>
-                    <button class="obras">Obras y servicios</button>
-                    <button class="habilitacion">Habilitacion de Comercios</button>
-                    <button class="carnet">Carnet de Conducir</button>
-                    <button class="bromatologia">Bromatologia</button>
-                    <button class="tasas">Pago de Tasas</button>
-                    <button class="turismo">Turismo</button>
-                    <button class="higiene">Higiene Urbana</button>
-                    <button class="agua">Agua y Cloacas</button>
-                    <button class="deporte">Deportes</button>
-                    <button class="luz">Alumbrado PublicoS</button>
-                </div>
+            <h3 class="serviciosUno">SERVICIOS</h3>
+                    <div class="botones">
+                            <button class="boton">Educacion</button>
+                            <button class="boton">Salud</button>
+                            <button class="boton">Obras y servicios</button>
+                            <button class="boton">Habilitacion de Comercios</button>
+                            <button class="boton">Carnet de Conducir</button>
+                            <button class="boton">Bromatologia</button>
+                            <button class="boton">Pago de Tasas</button>
+                            <button class="boton">Turismo</button>
+                            <button class="boton">Higiene Urbana</button>
+                            <button class="boton">Agua y Cloacas</button>
+                            <button class="boton">Deportes</button>
+                            <button class="boton">Alumbrado PublicoS</button>
+                    </div>
         </section>  
 
-        <section class="noticias1" id="noticias1">
-            <h3> NOTICIAS</h3>
+        <section class="noticiasuno" id="noticiasuno">
+            <h3 class="noticiasdos"> NOTICIAS</h3>
             <div>
                 <div>
-                    <div class="primeraNoticia">
-                        <img src="" alt="">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, enim eum laudantium sunt optio voluptatum quis ?</p>
-                        <button class="leermas">LEER MAS</button>
-                    </div>
-                    <div class="segundaNoticia">
-                        <img src="" alt="">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, enim eum laudantium sunt optio voluptatum quis ?</p>
-                        <button class="leermas">LEER MAS</button>
-                    <div class="terceraNoticia">
-                        <img src="" alt="">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, enim eum laudantium sunt optio voluptatum quis ?</p>
-                        <button class="leermas">LEER MAS</button>
-                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src= "./Multimedia/sala de urgencias.jpg" class="card-img-top" alt="Nueva sala de urgencias">
+                            <div class="card-body">
+                              <h5 class="card-title">Nueva sala de Urgencias</h5>
+                              <p class="card-text">Con la presencia del Intendente Municipal Dr. Raul Alfonsin y del Secreatrio de Salud, Dr. Laureano Maradona quedo inaugurada la nueva sala de urgencias del Hospital Municipal.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Conocer mas</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="./Multimedia/foto obra.jpg" class="card-img-top" alt="Obras en la bicisenda">
+                            <div class="card-body">
+                              <h5 class="card-title">Marcacion de la bicisenda</h5>
+                              <p class="card-text">Avanza la demarcacion de la nueva bicisenda que unira el el microcentro con el Barrio Lourdes, permitiendo que numerosos vecinos lleguen con seguridad a su casa y/o trabajo</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Conocer mas</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="card h-100">
+                            <img src="./Multimedia/Atletismo.jpg" class="card-img-top" alt="Torneo de Atletismo">
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">El pasado domingo 15 de noviembre se desarrollo en la Pista de Atletismo Municipal el Torneo Justo Roman sonde se destacaron varios atletas locales</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="btn btn-primary">Conocer mas</a>
+                            </div>
+                        </div>
                 </div>
             </div>
         </section>
@@ -117,40 +137,43 @@
     <!--INICIO DEL FOOTER-->
     <footer>
         <!--ACA VA EL FORMULARIO-->
-        <div>
-            <div>
-                <div>
-                    <H3>Reclamos y/o sugerencias</H3>
-                    <form action="">
-                        <div>
+        <div class="container">
+            <H3 class="reclamosUno">Reclamos y/o sugerencias</H3>
+            <div class="caja">
+                <div class="cajaUno">
+                    <form>
+                        <div class="form-group">
                             <p>Dejanos tu reclamo o sugerencia</p>
                             <input type="name" placeholder="Dejanos tu nombre">
                         </div>
 
-                        <div>
+                        <div class="form-group">
                             <input type="text" placeholder="Dejanos tu mail y nos contactaremos">
                         </div>
-                        <div><button type="submit">Enviar</button>
-                        </div>
+                        <button type="submit">Enviar</button>
+                        
                     </form>
                 </div>
                 <!--aca va domicilio y telefonos-->
-                <div>
+                <div class="domicilio">
+                    <p>
                         <span>Municipalidad de Santos Lugares</span>
                         <span>Marcelo T. de Alvear 398  </span>
                         <span>Telefono 4234-9876 lineas rotativas</span>   
-                        
+                    </p>  
                 </div>
                 <!--acavan las redes-->
-                <div>
-                    <span>Facebook</span>
-                    <span>Twitter</span>
-                    <span>Instagram</span>
+                <div class="redes">
+                    <p>
+                    <span>Facebook <i class="fa-brands fa-facebook"></i></span>
+                    <span>Twitter <i class="fa-brands fa-twitter"></i></span>
+                    <span>Instagram <i class="fa-brands fa-instagram"></i></span>
+                </p>
                 </div>
                 <!--aca va el equipo-->
-                <div>
-                    <h5>Desarrollado por:</h5>
-                </div>
+            </div>
+            <div>
+                <h5>Desarrollado por:</h5>
             </div>
         </div>
 
